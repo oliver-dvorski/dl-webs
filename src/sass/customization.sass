@@ -1,0 +1,24 @@
+.title, .subtitle
+    font-family: $family-serif
+
+.hero.mountain-image
+    background:
+        image: url('../../img/hero.jpg')
+        size: cover
+        position: center
+    .title, .subtitle
+        color: #fff
+
+.title.is-primary
+    color: $primary
+
+.has-hover-effect
+    box-shadow: none
+    display: block
+    padding-bottom: 1em
+    transition: box-shadow .3s
+    border-radius: 3px
+    overflow: hidden
+    &:hover
+        box-shadow: 0 .5em 1em rgba(0, 0, 0, .3)
+
